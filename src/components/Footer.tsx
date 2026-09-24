@@ -20,7 +20,10 @@ export function Footer() {
               {SITE.email}
             </a>
           </li>
-          <li className="text-muted">&copy; {new Date().getFullYear()} {SITE.name}. Fictional agency for a demo.</li>
+          <li className="text-muted">&copy; {new Date().getFullYear()} {SITE.name}. Fictional agency for a demo</li>
+  <p className="mt-2 text-center text-sm text-muted max-w-3xl mx-auto px-4">
+   Assignment for Tiron Agency developed by Arshak Ahamed.
+</p>
         </ul>
       </div>
     </footer>
