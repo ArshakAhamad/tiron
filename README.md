@@ -26,6 +26,8 @@ Edit `.env`:
 | `PAYLOAD_SECRET` | Signs Payload auth tokens. Any long random string | `openssl rand -hex 32` |
 | `NEXT_PUBLIC_SITE_URL` | Absolute URL for canonical links, sitemap and OG tags | `http://localhost:3000` |
 
+'DB name I choose as - tiron-case-studies'
+
 **Database options**
 - **Local:** Install MongoDB Community and use the local URI above, or run `docker compose up -d` to start MongoDB 7 on port `27017`.
 - **Atlas:** use the `mongodb+srv://…` string, with the database name before the `?` (`…mongodb.net/tiron-case-studies?retryWrites=true&w=majority`). Add your IP under Network Access.
