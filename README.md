@@ -143,3 +143,5 @@ Skip link; landmarks (`header`, `nav` with labels, `main`, `footer`); visible fo
 8. **Framework upgrade path:** move to Next 16 and `"use cache"` / `cacheTag` once Payload supports it, replacing `unstable_cache`.
 9. **Observability:** wire the error boundary into an error reporter, and add basic analytics events for filter and search usage.
 10. **Filter UX:** on mobile, collapse the two chip rows into a single "Filters" sheet with an applied-count badge; on desktop, keep them inline.
+
+                                                                     ## THANK YOU
